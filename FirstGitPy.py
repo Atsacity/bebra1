@@ -31,4 +31,4 @@ MiniCalculator = MiniCalculator(
 )
 
 print(MiniCalculator.calculation())
-print('--- %s ---' % (time.time() - start_time))
+print('--- %s seconds ---' % (time.time() - start_time))
